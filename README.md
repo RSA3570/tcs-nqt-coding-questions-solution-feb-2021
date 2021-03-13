@@ -1,6 +1,6 @@
 # tcs-nqt-coding-questions-solution-feb-2021
 
-Question 1: A cricket Coach want to measure the area of Cricket ground and he know the Radius of the cricket ground.
+# Question 1: A cricket Coach want to measure the area of Cricket ground and he know the Radius of the cricket ground.
             Given Formula P= rr*r (r square) = 3.1415. Constraints: r>=20<3D30.
             
             Inputs: 
