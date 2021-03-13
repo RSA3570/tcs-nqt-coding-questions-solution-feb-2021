@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class CricketPlayGroundArea {
     public static void main(String[] args) {
 
@@ -8,11 +10,15 @@ public class CricketPlayGroundArea {
         //Case 1: input 22 Output: 1520.486 
         //case 2: 34 Output : Wrong Display Output.
 
-      int r = 34;
+      int r;
+
+      Scanner sc= new Scanner(System.in);
+      System.out.print("Enter the Radius: ");
+      r = sc.nextInt();
       
       double area = 3.1415*(Math.pow(r,2));
       
-      if(r>=20 && r == 22 && r<=30){
+      if(r>=20 && r<=30){
         System.out.println("Area of Cricket Ground is: "+area);
       }else{
         System.out.println("Wrong Input plz enter the number b/w 20 & 30");
